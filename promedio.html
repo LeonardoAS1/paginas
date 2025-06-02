@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulario para calcular promedio</title>
+  <link rel="stylesheet" href="rfc.css" />
+</head>
+<body>
+    <h2>Formulario para calcular promedio</h2>
+<form id="promedioForm" action="promedio.php" method="POST">
+        <label for="numero1">Número 1:</label><br />
+        <input type="number" id="numero1" name="numero1" required /><br /><br />
+
+        <label for="numero2">Número 2:</label><br />
+        <input type="number" id="numero2" name="numero2" required /><br /><br />
+
+        <label for="numero3">Número 3:</label><br />
+        <input type="number" id="numero3" name="numero3" required /><br /><br />
+
+        <button type="submit">Calcular promedio</button>
+    </form>
+
+    <h3 id="resultado"></h3>
+
+
+</body>
+</html>
